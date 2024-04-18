@@ -40,8 +40,8 @@ const blogFilter = document.querySelector(".blog-filter");
 
 filterBtns.forEach((filterBtn) => {
   filterBtn.addEventListener("click", () => {
-    blogFilter.classList.add("mobile");
-    body.classList.add("mobile-active");
+    blogFilter.classList.toggle("mobile");
+    body.classList.toggle("mobile-active");
     console.log("first");
   });
 });
