@@ -34,7 +34,7 @@ closeBtn.addEventListener("click", () => {
 
 // ==================filter menu====================
 
-const filterBtns = document.querySelectorAll(".news-btn");
+const filterBtns = document.querySelectorAll(".news");
 const filterClose = document.querySelector(".filter-close");
 const blogFilter = document.querySelector(".blog-filter");
 
